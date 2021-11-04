@@ -1,0 +1,7 @@
+type BoxItem @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  description: String
+  complete: Boolean
+}
+  
